@@ -15,7 +15,8 @@
 ## どういうものを作るのか
 常に身長、体重、心拍数などのデータが取れるような仕組みをWebAssembly上で作成する
 
-https://zenn.dev/paralleltree/articles/6287998e8e22b6#%E5%BF%83%E6%8B%8D%E6%95%B0%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B
+[Fitbitデバイスで自分(物理)の死活監視APIを立てる](https://zenn.dev/paralleltree/articles/6287998e8e22b6#%E5%BF%83%E6%8B%8D%E6%95%B0%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B)
+
 
 https://workers.wasmlabs.dev/docs/containers
 
