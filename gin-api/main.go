@@ -69,7 +69,6 @@ func main() {
 		// https://maku77.github.io/p/dsbs9p5/#google_vignette
 		
 		health := []byte{}
-		
 		health,err = json.MarshalIndent(string(body), "", "    ")
 		if err != nil {
 			fmt.Println(err)
@@ -77,7 +76,7 @@ func main() {
 		}
 
 		c.JSON(200,gin.H {
-			"result": health, // string(body),
+			"result": string(health), // string(body),
 		})
 	})
 
