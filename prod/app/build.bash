@@ -1,0 +1,1 @@
+tinygo build -o worker.wasm -target wasi worker.go

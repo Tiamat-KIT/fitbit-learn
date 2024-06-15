@@ -6,14 +6,9 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
     pkgs.go
-    # pkgs.python312
-    # pkgs.python311Packages.pip
-    # pkgs.nodejs_20
-    # pkgs.nodePackages.nodemon
     pkgs.bun
-    pkgs.go
-    # pkgs.pkg-config
-    # pkgs.sudo
+    pkgs.tinygo
+    pkgs.sudo
   ];
   # Sets environment variables in the workspace
   env = {};
@@ -43,13 +38,12 @@
       # Runs when a workspace is first created
       onCreate = {
         # Example: install JS dependencies from NPM
-        libsecret-install = "sudo apt-get install libsecret-1-dev";
+        wws-install = "curl -fsSL https://workers.wasmlabs.dev/install | bash";
         # npm-install = "npm install";
       };
       # Runs when the workspace is (re)started
       onStart = {
-        # Example: start a background task to watch and re-build backend code
-        # watch-backend = "npm run watch-backend";
+        wss-install = "curl -fsSL https://workers.wasmlabs.dev/install | bash";
       };
     };
   };
