@@ -17,8 +17,8 @@
 
 [Fitbitデバイスで自分(物理)の死活監視APIを立てる](https://zenn.dev/paralleltree/articles/6287998e8e22b6#%E5%BF%83%E6%8B%8D%E6%95%B0%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B)
 
+[Running in a container](https://workers.wasmlabs.dev/docs/containers)
 
-https://workers.wasmlabs.dev/docs/containers
 
 https://qiita.com/hirokihello/items/69df88ba55125c2aed39
 
